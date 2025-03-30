@@ -20,7 +20,7 @@ web_server:
   image: f2hex/nginx
   container_name: redmine-web_server
   ports:
-    - "443:443"
+    - "8443:8443"
   volumes:
     - /data/redmine/web/log:/var/log/nginx
   net: redmine
